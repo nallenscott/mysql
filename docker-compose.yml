@@ -1,0 +1,14 @@
+# This dockercompose file raises two instances of mysql, each with the same
+# databases and tables.
+version: '3.8'
+
+services:
+  sample-data:
+    image: i2shar/mysql-data
+    container_name: db1
+    ports:
+      - 3206:3306
+    volumes:
+      - $HOME/docker/volumes/db1:/var/lib/mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: root
