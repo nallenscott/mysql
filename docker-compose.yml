@@ -1,5 +1,3 @@
-# This dockercompose file raises two instances of mysql, each with the same
-# databases and tables.
 version: '3.8'
 
 services:
