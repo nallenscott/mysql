@@ -3,8 +3,6 @@
   mysql<br>
 </h1>
 
-Personal scratchpad for answering questions about MySQL.
-
 ```terminal
 $ docker-compose up
 ```
